@@ -1,0 +1,199 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>My Portfolio</title>
+  <style>
+    * {
+      margin: 0;
+      padding: 0;
+      box-sizing: border-box;
+      font-family: Arial, sans-serif;
+    }
+
+    body {
+      background: #f9f9f9;
+      color: #333;
+      line-height: 1.6;
+    }
+
+    header {
+      background: #2c3e50;
+      color: #fff;
+      padding: 20px 0;
+      text-align: center;
+    }
+
+    header h1 {
+      font-size: 2.5rem;
+    }
+
+    nav {
+      margin-top: 10px;
+    }
+
+    nav a {
+      color: #fff;
+      text-decoration: none;
+      margin: 0 15px;
+      font-size: 1rem;
+    }
+
+    nav a:hover {
+      text-decoration: underline;
+    }
+
+    section {
+      padding: 50px 20px;
+      max-width: 1000px;
+      margin: auto;
+    }
+
+    h2 {
+      text-align: center;
+      margin-bottom: 20px;
+      color: #2c3e50;
+    }
+
+    
+
+    .about, .education, .skills, .projects, .contact {
+      margin-bottom: 50px;
+    }
+
+    .skills ul {
+      list-style: none;
+      display: flex;
+      justify-content: center;
+      flex-wrap: wrap;
+    }
+
+    .skills ul li {
+      background: #2c3e50;
+      color: white;
+      padding: 10px 15px;
+      margin: 10px;
+      border-radius: 5px;
+    }
+    .header-content {
+  display: flex;
+  align-items: center;
+  justify-content: center;
+  gap: 20px;
+}
+
+.profile-img {
+  width: 120px;
+  height: 120px;
+  border-radius: 50%;
+  border: 3px solid #fff;
+  object-fit: cover;
+}
+
+.header-text {
+  text-align: left;
+}
+
+
+    .projects-grid {
+      display: grid;
+      grid-template-columns: repeat(auto-fit, minmax(250px, 1fr));
+      gap: 20px;
+    }
+
+    .project-card {
+      background: #fff;
+      padding: 20px;
+      border-radius: 8px;
+      box-shadow: 0px 4px 6px rgba(0,0,0,0.1);
+      text-align: center;
+    }
+
+    .project-card h3 {
+      margin-bottom: 10px;
+    }
+
+    footer {
+      background: #2c3e50;
+      color: #fff;
+      text-align: center;
+      padding: 20px;
+    }
+  </style>
+</head>
+<body>
+
+  <header>
+  <div class="header-content">
+    <img src="WhatsApp Image 2024-07-06 at 19.11.59-Photoroom (1).png" alt="My Photo" class="profile-img">
+    <div class="header-text">
+      <h1>Gopan Thayaparan</h1>
+      <p>2nd Year Information Systems Undergraduate | Sabaragamuwa University of Sri Lanka</p>
+    </div>
+  </div>
+  <nav>
+    <a href="#about">About</a>
+    <a href="#education">Education</a>
+    <a href="#skills">Skills</a>
+    <a href="#projects">Projects</a>
+    <a href="#contact">Contact</a>
+  </nav>
+</header>
+
+
+  <section id="about" class="about">
+    <h2>About Me</h2>
+    <div class="project-card">
+    <p>Hello! I am an enthusiastic Information Systems student currently pursuing my degree at Sabaragamuwa University. I am passionate about technology, problem solving, and learning new skills that will help me grow as a professional in the IT field.</p>
+    </div>
+  </section>
+
+  <section id="education" class="education">
+    <h2>Education</h2>
+    <div class="project-card">
+    <p><strong>Sabaragamuwa University of Sri Lanka</strong><br>
+      Bachelor of Science in Information Systems<br>
+      (2nd Year, Expected Graduation: 2027)
+    </p>
+   </div>
+  </section>
+
+  <section id="skills" class="skills">
+    <h2>Skills</h2>
+    <ul>
+      <li>HTML & CSS</li>
+      <li>Java</li>
+      <li>Python</li>
+      <li>SQL</li>
+      <li>Problem Solving</li>
+    </ul>
+  </section>
+
+  <section id="projects" class="projects">
+    <h2>Projects</h2>
+    <div class="projects-grid">
+      <div class="project-card">
+         <h3>Website Creating Competition</h3>
+      <p>I participated in a website creating competition where I designed and developed a responsive website. This experience helped me improve my design, coding, and teamwork skills.</p>
+      <a href="#" target="_blank">View Project</a>
+      </div>
+     
+    </div>
+  </section>
+
+  <section id="contact" class="contact">
+    <h2>Contact</h2>
+    <div class="project-card">
+    <p>Email: <a href="thayaparangopan21@gmail.com">thayaparangopan21@gmail.com</a></p>
+    <p>LinkedIn: <a href="https://www.linkedin.com/in/gopan-thayaparan-47a503292/">linkedin.com/in/yourprofile</a></p>
+    <p>GitHub: <a href="https://github.com/thayaparangopan21-star/thayaparangopan21">https://github.com/thayaparangopan21-star/thayaparangopan21</a></p>
+    </div>
+  </section>
+
+  <footer>
+    <p>&copy; 2025 Gopan Thayaparan | All Rights Reserved</p>
+  </footer>
+
+</body>
+</html>
